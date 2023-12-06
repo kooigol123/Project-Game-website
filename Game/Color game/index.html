@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Match Color</title>
+    <meta name="description" content="A game made to inspire developers to use GSAP, ES6 and Flexbox">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="https://greghub.github.io/coloron/public/images/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76"
+        href="https://greghub.github.io/coloron/public/images/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="https://greghub.github.io/coloron/public/images/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152"
+        href="https://greghub.github.io/coloron/public/images/touch-icon-ipad-retina.png">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,900'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2382491052.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="Menu">
+        <i class="fa-solid fa-bars bar2" onclick="Menu()"></i>
+        <div class="dropdown-bar2" id="MyDropdown">
+            <ul>
+                    <li><a href="/Connected/index.html" id="Home">Home</a></li>
+            </ul>
+        </div>
+</div>
+    <div class="splash"></div>
+    <div class="container">
+        <div class="start-game game-full-flex" id="start-game">
+            <div class="start-game-top"><a class="play-full-page" href="https://codepen.io/gregh/full/yVLOyO/"
+                    target="_blank"></a></div>
+
+            <div class="logo-holder">
+                <p class="logo">
+                    <span>Match Color</span>
+                </p>
+                <a class="play-button" href="#" onclick="game.start()" style="letter-spacing: 0px;">เล่นเกม</a>
+            </div>
+
+            <div class="how-to-play">
+                <div class="section section-1">
+                    <h4>ลูกบอลเปลี่ยนสี</h4>
+                    <div class="content">
+                        <div class="ball-demo" id="ball-demo"></div>
+                    </div>
+                </div>
+                <div class="section section-2">
+                    <h4>กดที่แท่นเพื่อเปลี่ยนสีให้ตรงกับลูกบอล <br>(แดง,เหลือง,ม่วง)</h4>
+                    <div class="content">
+                        <div class="bar bar-1" data-index="0"></div>
+                        <div class="bar bar-2"></div>
+                        <div class="bar bar-3"></div>
+                    </div>
+                </div>
+                <div class="section section-3">
+                    <h4>สีต้องตรงกับแท่น<br>ทั้งสีของบอลและแท่น</h4>
+                    <div class="content">
+                        <div class="ball-demo" id="ball-demo"></div>
+                        <div class="bar bar-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stop-game game-full-flex">
+            <div class="score-container">
+                <div class="final-score"></div>
+                <div class="result"></div>
+                <div>
+                    <a class="play-again" href="#" onclick="game.start()" style="background-color:rgb(76, 215, 76);">เล่นอีกครั้ง</a>
+                </div>
+                <div>
+                    <a class="play-again" href="/public/index.html" onclick="game.start()" >ออกจากเกม</a>
+                </div>
+            </div>
+        </div>
+        <div class="small-glows"></div>
+        <div class="glow">
+            <div class="sun"></div>
+        </div>
+        <div class="waves">
+            <div class="top_wave"></div>
+            <div class="wave1"></div>
+            <div class="wave2"></div>
+            <div class="wave3"></div>
+            <div class="wave4"></div>
+        </div>
+
+        <div class="mounts">
+            <div class="mount1"></div>
+            <div class="mount2"></div>
+        </div>
+
+        <div class="clouds"></div>
+
+        <div class="scene">
+            <div class="learn-to-play">กดที่แท่นเพื่อเปลี่ยนสี</div>
+            <div class="score" id="score"></div>
+            <div class="ball-holder"></div>
+            <div class="sticks" id="sticks"></div>
+        </div>
+        <div class="noise"></div>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+    <script src="Script.js"></script>
+
+</body>
+
+</html>

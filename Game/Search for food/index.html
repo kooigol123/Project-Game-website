@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search for food</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2382491052.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="Menu">
+      <i class="fa-solid fa-bars bar" onclick="Menu()"></i>
+      <div class="dropdown-bar" id="MyDropdown">
+        <ul>
+          <li><a href="/Connected/index.html" id="Home">Home</a></li>
+        </ul>
+      </div>
+    </div>
+    <div div id="gradient"></div>
+        <div id="page">
+            <div id="Message-Container">
+              <div id="message">
+                <h1>ยินดีด้วย ! ! ❤️</h1>
+                  <p style="font-size: 20px;font-weight: 500;">คุณเล่นจบแล้ว</p>
+                  <p id="moves" style="font-size: 20px;"></p>
+                  <div id="Text">
+                    <input id="okBtn" type="button" onclick="All()" value="เล่นอีกรอบ"/>
+                    <a href="/Connected/index.html"><input type="button" value="ออกจากเกม" id="startMazeBtn"></a>
+                  </div>
+              </div>
+            </div>
+          <div id="menu">
+            <div class="custom-select">
+              <select id="diffSelect">
+                <option value="15"></option>
+              </select>
+            </div>
+            <input id="startMazeBtn" type="button"   onclick="makeMaze()" value="เล่นอีกรอบ" style="font-size: 29px;" />
+          </div>
+          <div id="view">
+            <div id="mazeContainer">
+              <canvas id="mazeCanvas" class="border" height="1100px" width="1100px"></canvas>
+            </div>
+          </div>
+        </div>
+        <script src="Script.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js'></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+</body>
+</html>

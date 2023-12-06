@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="Style.css">
+      <script src="https://kit.fontawesome.com/2382491052.js" crossorigin="anonymous"></script>
+      <title>Tower Building</title>
+</head>
+
+<body>
+      <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+      </div>
+      <section class="main">
+            <div class="Menu">
+                  <i class="fa-solid fa-bars bar" onclick="Menu()"></i>
+                  <div class="dropdown-bar" id="MyDropdown">
+                        <ul>
+                              <li><a href="/Connected/index.html" id="Home">Home</a></li>
+                        </ul>
+                  </div>
+            </div>
+            <meta name="viewport" content="width=device-width,user-scalable=no">
+            <div id="container">
+                  <div id="game"></div>
+                  <div id="score">0</div>
+                  <div id="instructions">คลิก (หรือกดปุ่ม Spacebar) เพื่อวางบล็อก</div>
+                  <div class="game-over">
+                        <h2>จบเกม</h2>
+                        <p>คุณทำได้ดีมาก คุณทำได้ดีที่สุดแล้ว สู้ต่อไปนะ</p>
+                        <p><u style="color: Black;">คลิกหรือกดปุ่ม Spacebar เพื่อเริ่มเล่นเกมอีกครั้ง</u></p>
+                  </div>
+                  <div class="game-ready">
+                        <div id="start-button">กดเริ่มเกม</div>
+                        <div></div>
+                  </div>
+            </div>
+      </section>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
+	<script src="Script.js"></script>
+</body>
+
+</html>

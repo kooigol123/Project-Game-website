@@ -1,0 +1,114 @@
+.Question {
+  position: absolute;
+  margin: auto;
+  width: 200;
+}
+
+.Answer-Question {
+  position: absolute;
+  width: 200px;
+  top: -140;
+  right: -5;
+  border: 0;
+  border-bottom: 2px solid black;
+  height: 35;
+  outline: 0;
+  font-size: 1.5rem;
+  letter-spacing: 1;
+  color: black;
+  background: transparent;
+  transition: border-color 0.2s;
+  font-family: 'Kanit', sans-serif;
+  z-index: 1;
+}
+
+.Answer-Question:focus {
+  padding-bottom: 1px;
+  font-weight: 500;
+  letter-spacing: 1;
+  border-image: linear-gradient(to right, primary, secondary);
+  font-family: 'Kanit', sans-serif;
+  border-image-slice: 1;
+  z-index: 1;
+}
+
+.Answer-Question::placeholder {
+  color: black;
+  font-family: 'Kanit', sans-serif;
+}
+
+.Question-stay {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  position: absolute;
+  top: -160;
+  width: 200;
+  margin: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: black;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.Question .Submit {
+  position: absolute;
+  top: -138;
+  right: -5;
+  font-size: 18px;
+  background-color: transparent;
+  color: beige;
+  font-family: 'Kanit', sans-serif;
+  z-index: 2;
+  background: black;
+  border-radius: 50px;
+  border: 1px solid#000000;
+
+}
+
+.Question .Submit:hover {
+  background-color: rgb(131, 35, 35);
+  border-radius: 50px;
+  transition: 0.3s;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.Curcle {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000000;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Curcle-text {
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  margin-top: 30%;
+  margin-left: 18%;
+}
+
+.curcle hr {
+  position: absolute;
+  display: block;
+  border: 0;
+  margin-top: 50%;
+  width: 85px;
+  border-top: 4px dashed black;
+  border-bottom: none;
+}
+
+.Know {
+  position: absolute;
+  color: black;
+  font-size: 50;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
