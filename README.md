@@ -32,10 +32,9 @@ Website : https://banjanisgame-b9ae6.web.app.
 ![List Game](https://github.com/kooigol123/Project-Game-website/assets/123256973/17a64006-e47e-4498-8f75-37a958aea1f1)
 
 ## ผู้จัดทำโครงงาน
-- นาย อนุภัทร สมบัติศรี - ทำเว็บไซต์ > https://www.facebook.com/Anupat.Sombatsri
-- นาย อนุภัทร สมบัติศรี - ทำเว็บไซต์ > <a heaf="https://www.facebook.com/Anupat.Sombatsri">Anupat Sombatsri<a>
-- นาย พรพล วงศ์ปัญจพล - ออกแบบพื้นหลังเว็บไซต์ > https://www.facebook.com/TryToBeARainbow.InSomeone.sCloud
-- ปัญญวัฒน์ ฟักทิม - ทำเอกสารรูปเล่มโครงงาน > https://www.facebook.com/punn.faktim
+- นาย อนุภัทร สมบัติศรี - ทำเว็บไซต์ > [Anupat Sombatsri](https://www.facebook.com/Anupat.Sombatsri)
+- นาย พรพล วงศ์ปัญจพล - ออกแบบพื้นหลังเว็บไซต์ > [Pad Kwad ](https://www.facebook.com/TryToBeARainbow.InSomeone.sCloud)
+- ปัญญวัฒน์ ฟักทิม - ทำเอกสารรูปเล่มโครงงาน > [Punn Faktim ](https://www.facebook.com/punn.faktim)
 
 ## เครดิต
 - https://codepen.io/ste-vg
