@@ -33,6 +33,7 @@ Website : https://banjanisgame-b9ae6.web.app.
 
 ## ผู้จัดทำโครงงาน
 - นาย อนุภัทร สมบัติศรี - ทำเว็บไซต์ > https://www.facebook.com/Anupat.Sombatsri
+- นาย อนุภัทร สมบัติศรี - ทำเว็บไซต์ > <a heaf="https://www.facebook.com/Anupat.Sombatsri">Anupat Sombatsri<a>
 - นาย พรพล วงศ์ปัญจพล - ออกแบบพื้นหลังเว็บไซต์ > https://www.facebook.com/TryToBeARainbow.InSomeone.sCloud
 - ปัญญวัฒน์ ฟักทิม - ทำเอกสารรูปเล่มโครงงาน > https://www.facebook.com/punn.faktim
 
