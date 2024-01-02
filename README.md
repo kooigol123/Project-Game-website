@@ -1,11 +1,11 @@
 # โครงงาน "การพัฒนาเกมบนคอมพิวเตอร์"
 เกมเว็บไซต์นี้เป็นส่วนหนึ่งของโครงงาน "การพัฒนาเกมบนคอมพิวเตอร์" ของนักเรียนมัธยมศึกษาปีที่ 5/3 โรงเรียนบ้านสวนจั่นอนุสรณ์ 
-
-ภาษาที่เลือกใช้ : HTML / CSS / JAVASCRIPT
-โปรแกรมที่ใช้ : Visual Studio Code
-โฮสต์ที่ใช้ : Firebase
-E-book : https://pubhtml5.com/sihr/jqxi.
-Website : https://banjanisgame-b9ae6.web.app.
+<br><br>
+ภาษาที่เลือกใช้ : HTML / CSS / JAVASCRIPT <br>
+โปรแกรมที่ใช้ : Visual Studio Code <br>
+โฮสต์ที่ใช้ : Firebase <br> 
+E-book : https://pubhtml5.com/sihr/jqxi. <br>
+Website : https://banjanisgame-b9ae6.web.app. <br>
 
 ## สารบัญ
 - [วิธีเข้าเล่นเกม](#%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%A1)
@@ -32,9 +32,9 @@ Website : https://banjanisgame-b9ae6.web.app.
 ![List Game](https://github.com/kooigol123/Project-Game-website/assets/123256973/17a64006-e47e-4498-8f75-37a958aea1f1)
 
 ## ผู้จัดทำโครงงาน
-- นาย อนุภัทร สมบัติศรี - ทำเว็บไซต์ > [Anupat Sombatsri](https://www.facebook.com/Anupat.Sombatsri)
-- นาย พรพล วงศ์ปัญจพล - ออกแบบพื้นหลังเว็บไซต์ > [Pad Kwad ](https://www.facebook.com/TryToBeARainbow.InSomeone.sCloud)
-- ปัญญวัฒน์ ฟักทิม - ทำเอกสารรูปเล่มโครงงาน > [Punn Faktim ](https://www.facebook.com/punn.faktim)
+- นายอนุภัทร สมบัติศรี - ทำเว็บไซต์ > [Anupat Sombatsri](https://www.facebook.com/Anupat.Sombatsri)
+- นายพรพล วงศ์ปัญจพล - ออกแบบพื้นหลังเว็บไซต์ > [Pad Kwad ](https://www.facebook.com/TryToBeARainbow.InSomeone.sCloud)
+- นายปัญญวัฒน์ ฟักทิม - ทำเอกสารรูปเล่มโครงงาน > [Punn Faktim ](https://www.facebook.com/punn.faktim)
 
 ## เครดิต
 - https://codepen.io/ste-vg
